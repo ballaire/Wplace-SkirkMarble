@@ -164,7 +164,8 @@ export default class ApiManager {
             }
           }
           break;
-        
+
+        case 'tile':
         case 'tiles':
 
           // Runs only if the tile has the template
